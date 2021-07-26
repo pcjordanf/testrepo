@@ -1,0 +1,6 @@
+conf t
+ip multicast-routing
+ip pim rp-address 2.2.2.2
+
+int fa#/#
+ip pim sparse-mode
